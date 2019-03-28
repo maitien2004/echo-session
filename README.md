@@ -1,7 +1,7 @@
 echo-session
 ======
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/ipfans/echo-session)](https://goreportcard.com/report/github.com/ipfans/echo-session) [![GoDoc](http://godoc.org/github.com/ipfans/echo-session?status.svg)](http://godoc.org/github.com/ipfans/echo-session)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ipfans/echo-session)](https://goreportcard.com/report/github.com/ipfans/echo-session) [![GoDoc](http://godoc.org/github.com/ipfans/echo-session?status.svg)](http://godoc.org/github.com/maitien2004/echo-session)
 
 Middleware echo-session is a session support for [echo](https://github.com/labstack/echo/).
 
@@ -9,7 +9,7 @@ Middleware echo-session is a session support for [echo](https://github.com/labst
 
 ### Installation
 
-	go get github.com/ipfans/echo-session
+	go get github.com/maitien2004/echo-session
 
 ## Example
 
@@ -17,7 +17,7 @@ Middleware echo-session is a session support for [echo](https://github.com/labst
 package main
 
 import (
-	"github.com/ipfans/echo-session"
+	"github.com/maitien2004/echo-session"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
